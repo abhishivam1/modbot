@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 
-app = Client("my_bot", api_id=751980, api_hash='1481687e152a07f5f4881deccf2235dd', bot_token='6169531420:AAHKsTI9uAVoUIyPNAnoQRe04DNwR12wRyI')
+app = Client("my_bot", api_id=1613505, api_hash='ab2ad96ee3f4900132dafe115921ba31', bot_token='6169531420:AAHKsTI9uAVoUIyPNAnoQRe04DNwR12wRyI')
 
 @app.on_message(filters.text & ~filters.command(["start"]))
 def echo(bot, message):
